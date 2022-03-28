@@ -1,0 +1,11 @@
+app:
+  name: "Hasere Web Service"
+  description: Welcome to ${app.name}
+  
+server:
+  port: ${appPort:8099}
+  additionalPorts:
+
+tcp:
+  server:
+    port: 5016
